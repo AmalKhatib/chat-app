@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_msg_sender"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/bg_sender_right"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="hi"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>
